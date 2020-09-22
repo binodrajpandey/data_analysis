@@ -25,3 +25,30 @@ arr3 = arr1+arr2
 # [[ 2  4  6  8]
 #  [ 6  8 10 12]] ie. value will be replacted to make equql shape. so this kinds of arrays are compatible.
 print(arr3)
+
+# Prints [[ True  True  True  True]
+#  [False False False False]]
+print(arr1==arr2)
+# [[False False False False]
+#  [ True  True  True  True]]
+print(arr1>arr2)
+# prints 4
+print((arr1==arr2).sum())
+
+# Accessing arrays
+print(arr1[1,3])
+
+# Creating subarray
+# prints [[5 6]]
+print(arr1[1:,0:2])
+
+# Other ways to create array
+print(np.zeros((3,2)))
+print(np.ones([2,2,3]))
+print(np.eye(3))
+print(np.random.random(5))
+arr = np.random.rand(2,3)
+print(arr)
+# prints [[42 42 42]
+#  [42 42 42]]
+print(np.full([2,3],42))
