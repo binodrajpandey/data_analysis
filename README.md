@@ -1,11 +1,4 @@
 ## Pandas
-### Dependencies
-- pandas==1.1.2
-- python-dateutil==2.8.1
-- pytz==2020.1
-- six==1.15.0
- 
- If we install pandas, above dependencies are automatically installs.
 Internal structure of pandas data frame is like below:
 ```
 covid_data_dict = {
@@ -18,13 +11,7 @@ covid_data_dict = {
 For detail please follow this reference [ref](https://jovian.ml/learn/data-analysis-with-python-zero-to-pandas/lesson/lesson-4-analyzing-tabular-data-with-pandas)
 
 ## Visualization with matplotlib and seaborn
-### Dependencies
-- cycler==0.10.0
-- kiwisolver==1.2.0
-- matplotlib==3.3.2
-￿- Pillow==7.2.0
-- pyparsing==2.4.7
- Those dependency will be automatically install if we install matplotlib.
+
 ### Line Chart
 #### Styling lines and marker
 - color (c): set the color of line
