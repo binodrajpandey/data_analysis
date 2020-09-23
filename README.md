@@ -36,5 +36,8 @@ For detail please follow this reference [ref](https://jovian.ml/learn/data-analy
 - markerfacecolor (mfc): set the fill color of the marker
 - alpha: opacity of the plot
 ### Scatter plot
+- used to visualize the relation between two variables
 ### Historgram
 ### Bar
+
+For more detail [click](https://jovian.ml/learn/data-analysis-with-python-zero-to-pandas/lesson/lesson-5-data-visualization-with-matplotlib-and-seaborn)
